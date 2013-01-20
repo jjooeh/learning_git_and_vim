@@ -5,5 +5,43 @@ Since both are working in Bash on my terminal the first thing I'm going to do is
 	"PS1=\\W"  -  will change the prompt to cwd
 
 
+I'm getting to whatever line I'm working on by typing an number (for the line number) and the letter j which moves the cursor down however many lines I've just told it to. When in regular mode, that is.
+
+	10j
+
+
+I've cloned my new github repo for this little project using the clone command:
+
+	git clone https://github.com/jjooeh/learning_git_and_vim.git
+
+now I'm going to learn how to checkout and commit.
+
+Here we go:
+
+Ok I typed
+	git add *
+  to add all the files in the folder to the repo
+  then
+	git commit
+  at this point my shell switch to vim in order for me to type a commit message.  I did and came here to document these steps.
+
+I guess I will commit these new lines
+
+I'm having a little confusion here.
+  I typed "git commit" and received some information that my branch is ahead of origin/master by 1 commit
+
+I tried 
+	git push https://github.com/jjooeh/learning_git_and_vim.git
+  after asking for a username and password it uploaded to my github account
+  cool :)
+
+I'm going to do it again and then try a checkout.
+
+
+
+
+
+
+
 
 
