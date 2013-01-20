@@ -1,0 +1,9 @@
+This is a file where I will write what I learn while using VIM and Git.
+
+
+Since both are working in Bash on my terminal the first thing I'm going to do ischange my prompt. You do that by changing the value of the variable $PS1. 
+	"PS1=\\W"  -  will change the prompt to cwd
+
+
+
+
